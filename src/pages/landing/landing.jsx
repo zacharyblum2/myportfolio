@@ -1,9 +1,14 @@
 import React from 'react';
 import './landing.css';
 
+import { Navbar, Footer } from '../../components';
+
 const landing = () => {
   return (
-    <div>landing</div>
+    <div>
+      <Navbar/>
+      <Footer/>
+    </div>
   )
 }
 
