@@ -3,7 +3,15 @@ import './footer.css';
 
 const Footer = () => {
   return (
-    <div>Footer</div>
+    <>
+      <footer class="bg-dark text-center text-white">
+        <div class="container p-4 pb-0">
+          <section class="mb-4">
+            
+          </section>
+        </div>
+      </footer>
+    </>
   )
 }
 
