@@ -2,14 +2,20 @@ import React from 'react';
 import './App.css';
 
 import { Landing } from './pages';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { About } from './components';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 // Add some comments inside app.js
 function App() {
   return (
-    <div className="App">
-      <Landing/>
-    </div>
+    <Router>
+        <Routes> 
+          <Route path='/' element={<Landing />}>
+            <Route path='about' element={<About />}/>
+          </Route>
+        </Routes>
+    </Router>
+    
   );
 }
 
