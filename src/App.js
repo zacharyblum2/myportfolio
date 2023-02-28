@@ -1,6 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
 
+
+// Add some comments inside app.js
 function App() {
   return (
     <div className="App">
