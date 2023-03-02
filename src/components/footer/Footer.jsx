@@ -9,10 +9,10 @@ const Footer = () => {
       <footer class="bg-dark text-center text-white">
         <div class="container p-4 pb-0">
           <section class="mb-4">
-            <a href="/" class="btn btn-outline-light btn-floating m-1">
+            <a href="https://github.com/zacharyblum2" class="btn btn-outline-light btn-floating m-1">
               <Icon.Github/>
             </a>
-            <a href="/" class="btn btn-outline-light btn-floating m-1">
+            <a href="https://www.linkedin.com/in/zacharyblum2/" class="btn btn-outline-light btn-floating m-1">
               <Icon.Linkedin/>
             </a>
           </section>

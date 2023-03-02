@@ -35,8 +35,8 @@ const About = () => {
             </div>
           </div>
         </div>
-        <div id="img">
-          <img src='/aboutme.jpg' alt="Place image" />
+        <div id="image">
+          <img src='./images/aboutme.jpg' alt="Profile Picture" style={{color: "white"}}/>
         </div>
     </a>
   )
