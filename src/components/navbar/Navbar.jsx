@@ -1,6 +1,8 @@
 import React from 'react';
 import './navbar.css';
 
+import Doc from '../../documents/Resume.docx';
+
 const navbar = () => {
   return (
     <>
@@ -18,7 +20,7 @@ const navbar = () => {
                     <a class="nav-link" href="#contact">Contact</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link btn border border-success border-2 btn-outline-success" href="#">Resume</a>
+                    <a class="nav-link btn border border-success border-2 btn-outline-success" href={Doc}>Resume</a>
                 </li>
                 </ul>
             </div>
