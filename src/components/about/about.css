@@ -1,0 +1,11 @@
+p {
+    color: white;
+}
+
+#about {
+    display: flex;
+    flex-direction: column;
+    margin: 50px auto;
+    width: 60%;
+    padding: 10px;
+}
