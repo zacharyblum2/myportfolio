@@ -17,6 +17,9 @@ const navbar = () => {
                 <li class="nav-item">
                     <a class="nav-link" href="#contact">Contact</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link btn border border-success border-2 btn-outline-success" href="#">Resume</a>
+                </li>
                 </ul>
             </div>
         </nav>
