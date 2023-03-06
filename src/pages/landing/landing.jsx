@@ -1,7 +1,8 @@
 import React from 'react';
 import './landing.css';
 
-import { Navbar, Footer, Intro, Works, About, Contact } from '../../components';
+import { Navbar, Footer, Intro, About, Contact } from '../../components';
+import { Works } from '../../containers';
 
 const landing = () => {
   return (
@@ -9,6 +10,8 @@ const landing = () => {
       <Navbar/>
       <Intro/>
       <About/>
+      <Works/>
+      <Contact/>
       <Footer/>
     </div>
   )

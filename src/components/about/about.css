@@ -13,6 +13,16 @@ p {
     width: 60%;
 }
 
+#info {
+    margin: 0;
+    padding: 0;
+}
+
 .container {
     width: 40%;
+}
+
+img {
+    height: 300px;
+    width: 225px;
 }

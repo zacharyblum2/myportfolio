@@ -1,6 +1,8 @@
 import React from 'react';
 import './about.css';
 
+import PF from '../../images/aboutme.jpg';
+
 const About = () => {
   return (
     <a id="about">
@@ -20,7 +22,7 @@ const About = () => {
                 <div class="col-sm">
                   <p>JavaScript</p>
                 </div>
-                <div class="col-sm">
+                <div class="col-sm ">
                   <p>React</p>
                 </div>
               </div>
@@ -36,7 +38,7 @@ const About = () => {
           </div>
         </div>
         <div id="image">
-          <img src='./images/aboutme.jpg' alt="Profile Picture" style={{color: "white"}}/>
+          <img src={PF} alt="Profile Picture" style={{color: "white"}} class="rounded"/>
         </div>
     </a>
   )
