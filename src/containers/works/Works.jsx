@@ -28,8 +28,8 @@ const Works = () => {
   return (
     <a id="works"> 
         {
-        fps.map((fp) => <FeaturedProject title={fps.title} description={fps.description} 
-        resp={fps.responsibilites} tech={fps.technologies} complete={fps.complete}/>)
+        fps.map((fp) => <FeaturedProject title={fp.title} description={fp.description} 
+        resp={fp.responsibilites} tech={fp.technologies} complete={fp.complete}/>)
         }
         <OtherProjects/>
     </a>

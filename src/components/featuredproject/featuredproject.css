@@ -1,0 +1,12 @@
+.card {
+    background-color: transparent;
+    border: none;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.information {
+    background-color: rgb(53, 60, 66)
+}
