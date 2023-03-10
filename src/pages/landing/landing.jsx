@@ -4,7 +4,7 @@ import './landing.css';
 import { Navbar, Footer, Intro, About, Contact } from '../../components';
 import { Works } from '../../containers';
 
-const landing = () => {
+const Landing = () => {
   return (
     <div>
       <Navbar/>
@@ -17,4 +17,4 @@ const landing = () => {
   )
 }
 
-export default landing
+export default Landing

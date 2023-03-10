@@ -14,12 +14,11 @@ export default class FeaturedProject extends React.Component {
         }
     }
 
+    
+
     render() {
         return (
             <div className="card">
-                <div className="link">
-
-                </div>
                 <div className="info">
                     <div className="head">
                         <h4>Featured Project</h4>
@@ -30,12 +29,21 @@ export default class FeaturedProject extends React.Component {
                             <p>{this.state.description}</p>
                         </div>
                         <div className="resp">
-                            <p>{this.state.responsibilities}</p>
-                        </div>
-                        <div className="tech">
-                            <p>{this.state.tech}</p>
+                            <ul>
+                                <li>{this.state.resp[0]}</li>
+                                <li>{this.state.resp[1]}</li>
+                                <li>{this.state.resp[2]}</li>
+                            </ul>
                         </div>
                     </div>
+                    <div className="tech">
+                        <p>{this.state.tech[0]}</p>
+                        <p>{this.state.tech[1]}</p>
+                        <p>{this.state.tech[2]}</p>
+                    </div>
+                </div>
+                <div className="link">
+                    {/* Add bootstrap link to github*/}
                 </div>
             </div>
         )

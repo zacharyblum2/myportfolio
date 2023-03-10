@@ -10,3 +10,8 @@
 .information {
     background-color: rgb(53, 60, 66)
 }
+
+.tech {
+    display: flex;
+    gap: 10px;
+}
