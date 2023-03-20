@@ -9,8 +9,12 @@ p {
     padding: 10px;
 }
 
+.contain {
+    display: flex;
+    gap: 10%;
+}
 .content {
-    width: 60%;
+    width: 50%;
 }
 
 #info {
