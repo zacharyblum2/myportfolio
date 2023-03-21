@@ -26,15 +26,17 @@ export default class FeaturedProject extends React.Component {
                         <h3>{this.state.title}</h3>
                     </div>
                     <div className="information">
-                        <div className="desc">
-                            <p>{this.state.description}</p>
-                        </div>
-                        <div className="resp">
-                            <ul>
-                                {this.state.resp.map(resp => {
-                                    return <li>{resp}</li>
-                                })}
-                            </ul>
+                        <div class="bg-gray">
+                            <div className="desc">
+                                <p>{this.state.description}</p>
+                            </div>
+                            <div className="resp">
+                                <ul>
+                                    {this.state.resp.map(resp => {
+                                        return <li>{resp}</li>
+                                    })}
+                                </ul>
+                            </div>
                         </div>
                         <div className="tech">
                             <ul>
@@ -42,6 +44,9 @@ export default class FeaturedProject extends React.Component {
                                     return <li>{item}</li>
                                 })}
                             </ul>
+                        </div>
+                        <div className="links">
+                            
                         </div>
                     </div>
                 </div>

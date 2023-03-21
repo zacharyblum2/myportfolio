@@ -7,6 +7,26 @@
     width: 60%;
 }
 
-.information {
-    background-color: rgb(53, 60, 66)
+.bg-gray {
+    background-color: rgb(53, 60, 66);
+    padding: 10px;
+    width: 63%;
+}
+
+.tech li {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 10px;
+}
+
+.tech ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.desc {
+    margin: 0 10px 0;
 }
