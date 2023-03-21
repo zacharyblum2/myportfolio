@@ -1,14 +1,14 @@
 import React from 'react';
-import * as Icon from 'react-bootstrap-icons';
 import './App.css';
 
-import { Landing } from './pages';
+import Landing from './pages/landing/Landing';
+
 // Add some comments inside app.js
 function App() {
 
   return (
     <body class="bg-dark">
-      <Landing/>
+      <Landing />
     </body>    
   );
 }
