@@ -4,3 +4,9 @@
     align-items: center;
     gap: 30px;
 }
+
+h2 {
+    color: white;
+    align-self: flex-start;
+    margin: 0 372px 0;
+}

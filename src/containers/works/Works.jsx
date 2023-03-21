@@ -13,28 +13,33 @@ const fps = [
                             "Built the landing, login and signup pages using HTML, CSS and JavaScript"],
         technologies: ["HTML", "CSS", "JavaScript"],
         complete: true,
-        git: "",
-        link: ""
+        git: "https://github.com/carlos-jmh/pfoos-full-stack-app",
+        link: "",
+        img: "../../../public/images/HM.jpg"
     },
     {
-        title: "Household", role: "Project Manager and Frontend Developer",
+        title: "Household Manager", role: "Project Manager and Frontend Developer",
         description: "A web and mobile app for tracking household tasks, chores and events.",
         responsibilites: ["Created and managed Jira project using Agile development", 
                             "Taught members of team basic React"],
         technologies: ["Jira", "React", "Styled Components", "Agile"],
         complete: false,
-        git: "",
-        link: ""
+        git: "https://github.com/carlos-jmh/large-project",
+        link: "https://main.d16odqgz0vtejq.amplifyapp.com/",
+        img: ""
     },
 ]
 
 const Works = () => {
   return (
     <a id="works"> 
+      <h2>Noteworthy Projects</h2>
         {
         fps.map((fp) => <FeaturedProject title={fp.title} description={fp.description} 
-        resp={fp.responsibilites} tech={fp.technologies} complete={fp.complete}/>)
+        resp={fp.responsibilites} tech={fp.technologies} complete={fp.complete} git={fp.git} 
+        link={fp.link} img={fp.img}/>)
         }
+        <h2>Other Projects</h2>
         <OtherProjects/>
     </a>
   )
