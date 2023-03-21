@@ -12,7 +12,9 @@ const fps = [
                             "Created Kanban board and Gantt chard to organize the build and track team performance",
                             "Built the landing, login and signup pages using HTML, CSS and JavaScript"],
         technologies: ["HTML", "CSS", "JavaScript"],
-        complete: true
+        complete: true,
+        git: "",
+        link: ""
     },
     {
         title: "Household", role: "Project Manager and Frontend Developer",
@@ -20,7 +22,9 @@ const fps = [
         responsibilites: ["Created and managed Jira project using Agile development", 
                             "Taught members of team basic React"],
         technologies: ["Jira", "React", "Styled Components", "Agile"],
-        complete: false
+        complete: false,
+        git: "",
+        link: ""
     },
 ]
 

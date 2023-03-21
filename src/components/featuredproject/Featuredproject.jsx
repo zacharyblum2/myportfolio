@@ -1,4 +1,5 @@
 import React from 'react';
+import * as Icon from 'react-bootstrap-icons';
 import './featuredproject.css';
 
 export default class FeaturedProject extends React.Component {
@@ -10,7 +11,9 @@ export default class FeaturedProject extends React.Component {
             description: props.description,
             resp: props.resp,
             tech: props.tech,
-            complete: props.complete
+            complete: props.complete,
+            git: props.git,
+            link: props.link,
         }
     }
 
@@ -46,7 +49,8 @@ export default class FeaturedProject extends React.Component {
                             </ul>
                         </div>
                         <div className="links">
-                            
+                            <a href=""><Icon.Github></Icon.Github></a>
+                            <a href=""><Icon.BoxArrowUpRight></Icon.BoxArrowUpRight></a>
                         </div>
                     </div>
                 </div>

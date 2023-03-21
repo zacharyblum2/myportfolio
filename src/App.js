@@ -1,4 +1,5 @@
 import React from 'react';
+import * as Icon from 'react-bootstrap-icons';
 import './App.css';
 
 import { Landing } from './pages';
