@@ -30,12 +30,18 @@ export default class FeaturedProject extends React.Component {
                             <p>{this.state.description}</p>
                         </div>
                         <div className="resp">
-                            <p>{this.state.resp[0]}</p>
-                            <p>{this.state.resp[1]}</p>
-                            <p>{this.state.resp[2]}</p>
+                            <ul>
+                                {this.state.resp.map(resp => {
+                                    return <li>{resp}</li>
+                                })}
+                            </ul>
                         </div>
                         <div className="tech">
-                            <p>{this.state.tech}</p>
+                            <ul>
+                                {this.state.tech.map(item => {
+                                    return <li>{item}</li>
+                                })}
+                            </ul>
                         </div>
                     </div>
                 </div>
