@@ -16,6 +16,10 @@ export default class FeaturedProject extends React.Component {
             link: props.link,
             img: props.img
         }
+
+        this.imgs = {
+            HM: require('../../images/HM.jpg'),
+        }
     }
 
     
@@ -57,7 +61,7 @@ export default class FeaturedProject extends React.Component {
                     </div>
                 </div>
                 <div className="right">
-                    <img src={this.state.img} alt="" />
+                    <img src={this.imgs[this.state.img]} alt="" />
                 </div>
             </div>
         )

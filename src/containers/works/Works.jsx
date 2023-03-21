@@ -15,7 +15,7 @@ const fps = [
         complete: true,
         git: "https://github.com/carlos-jmh/pfoos-full-stack-app",
         link: "",
-        img: "../../../public/images/HM.jpg"
+        img: "HM"
     },
     {
         title: "Household Manager", role: "Project Manager and Frontend Developer",

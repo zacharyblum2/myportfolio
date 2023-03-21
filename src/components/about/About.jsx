@@ -1,8 +1,6 @@
 import React from 'react';
 import './about.css';
 
-import PF from '../../images/aboutme.jpg';
-
 const About = () => {
   return (
     <a id="about">
@@ -38,7 +36,7 @@ const About = () => {
               </div>
             </div>
             <div id="image">
-              <img src={PF} alt="Profile Picture" style={{color: "white"}} class="rounded"/>
+              <img src={require("../../images/aboutme.jpg")} alt="Profile Picture" style={{color: "white"}} class="rounded"/>
             </div>
           </div>
           </div>
