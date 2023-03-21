@@ -30,7 +30,9 @@ export default class FeaturedProject extends React.Component {
                             <p>{this.state.description}</p>
                         </div>
                         <div className="resp">
-                            <p>{this.state.responsibilities}</p>
+                            <p>{this.state.resp[0]}</p>
+                            <p>{this.state.resp[1]}</p>
+                            <p>{this.state.resp[2]}</p>
                         </div>
                         <div className="tech">
                             <p>{this.state.tech}</p>
