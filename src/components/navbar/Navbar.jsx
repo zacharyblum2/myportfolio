@@ -10,11 +10,11 @@ const navbar = () => {
             <a class="navbar-brand" href="/">Zachary Blum</a>
             <div class="collapse navbar-collapse" id="navbarText">
                 <ul class="navbar-nav ms-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#works">Works</a>
-                </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#works">Works</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#contact">Contact</a>
