@@ -59,7 +59,7 @@ export default class FeaturedProject extends React.Component {
                     </div>
                 </div>
                 <div className="right">
-                    <img src={this.imgs[this.state.img]} alt="" />
+                    <img className="linkimg" src={this.imgs[this.state.img]} alt="" />
                 </div>
             </div>
         )
